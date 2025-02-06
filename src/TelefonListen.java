@@ -1,4 +1,8 @@
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -136,6 +140,26 @@ public class TelefonListen
         for(String name : students.keySet())
         {
             System.out.println("Student name: " + name + "\n");
+        }
+    }
+
+    public void saveToFile()
+    {
+        try
+        {
+            FileWriter writer = new FileWriter("telephonelist.txt");
+
+                    for(String name : students.keySet())
+                    {
+                        writer.write("Student name: " + name + ", phone number: " + students.get(name) + "\n");
+                    }
+
+                    writer.close();
+
+            System.out.println("Added to file");
+        } catch(IOException e)
+        {
+            e.printStackTrace();
         }
     }
 

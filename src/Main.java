@@ -18,7 +18,8 @@ public class Main
             System.out.println("4: Delete student");
             System.out.println("5: Check if student is on the list");
             System.out.println("6: List of student names");
-            System.out.println("7: Exit");
+            System.out.println("7: Add students to file");
+            System.out.println("8: Exit");
 
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -49,6 +50,10 @@ public class Main
                     telefonlisten.showNamesOnList();
 
                 case 7:
+                    telefonlisten.saveToFile();
+                    break;
+
+                case 8:
                     running = false;
                     System.out.println("Goodbye");
                     break;
