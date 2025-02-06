@@ -107,4 +107,36 @@ public class TelefonListen
         }
     }
 
+    public void checkIfStudentIsOnList()
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the name of the student:");
+        String name = input.nextLine();
+
+        if(students.containsKey(name))
+        {
+            System.out.println("Student is on the list + \n");
+        }
+        else
+        {
+            System.out.println("Student is not on the list + \n");
+        }
+    }
+
+    public void showNamesOnList()
+    {
+        Scanner input = new Scanner(System.in);
+
+        if(students.isEmpty())
+        {
+            System.out.println("No students found + \n");
+        }
+
+        System.out.println("List of students, name only:");
+        for(String name : students.keySet())
+        {
+            System.out.println("Student name: " + name + "\n");
+        }
+    }
+
 }

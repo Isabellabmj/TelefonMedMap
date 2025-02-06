@@ -16,7 +16,9 @@ public class Main
             System.out.println("2: Show all students");
             System.out.println("3: Search for a student:");
             System.out.println("4: Delete student");
-            System.out.println("5: Exit");
+            System.out.println("5: Check if student is on the list");
+            System.out.println("6: List of student names");
+            System.out.println("7: Exit");
 
             int choice = scanner.nextInt();
             scanner.nextLine();
@@ -40,6 +42,13 @@ public class Main
                     break;
 
                 case 5:
+                    telefonlisten.checkIfStudentIsOnList();
+                    break;
+
+                case 6:
+                    telefonlisten.showNamesOnList();
+
+                case 7:
                     running = false;
                     System.out.println("Goodbye");
                     break;
