@@ -36,6 +36,7 @@ public class TelefonListen
         if(students.isEmpty())
         {
             System.out.println("No students found \n");
+            return;
         }
 
         System.out.println("Students in the class");
