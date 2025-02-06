@@ -89,7 +89,7 @@ public class TelefonListen
         }
         else
         {
-            System.out.println("Student not found + \n");
+            System.out.println("Student not found \n");
         }
     }
 
@@ -106,7 +106,7 @@ public class TelefonListen
         }
         else
         {
-            System.out.println("Student not found + \n");
+            System.out.println("Student not found \n");
         }
     }
 
@@ -118,11 +118,11 @@ public class TelefonListen
 
         if(students.containsKey(name))
         {
-            System.out.println("Student is on the list + \n");
+            System.out.println("Student is on the list \n");
         }
         else
         {
-            System.out.println("Student is not on the list + \n");
+            System.out.println("Student is not on the list \n");
         }
     }
 
@@ -131,7 +131,7 @@ public class TelefonListen
 
         if(students.isEmpty())
         {
-            System.out.println("No students found + \n");
+            System.out.println("No students found \n");
             return;
         }
 
