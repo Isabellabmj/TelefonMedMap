@@ -56,6 +56,7 @@ public class Main
 
                 case 8:
                     running = false;
+                    //telefonlisten.saveToFile(); man kan også vælge at sætte den ind her så der automatisk bliver gemt til fil ved nedluk.
                     System.out.println("Goodbye");
                     break;
             }

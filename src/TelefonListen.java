@@ -131,6 +131,7 @@ public class TelefonListen
         if(students.isEmpty())
         {
             System.out.println("No students found + \n");
+            return;
         }
 
         System.out.println("List of students, name only:");
