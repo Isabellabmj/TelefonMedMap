@@ -43,7 +43,7 @@ public class TelefonListen
         {
             System.out.println("Student name: " + name + "\n"
                     + "Phone number: " + students.get(name) //Note: vi kalder på students.get(name) fordi name er key og har tilhørende value, som er tlf nummer
-                    + "\n"); //spørgsmål, hvorfor kalder vi ikke på telefon?
+                    + "\n"); //spørgsmål, hvorfor kalder vi ikke på telefon? er det fordi vi kun kan kalde på key i HashMap?
         }
     }
 
