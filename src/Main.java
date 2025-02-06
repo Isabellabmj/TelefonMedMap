@@ -11,7 +11,7 @@ public class Main
 
         while(running)
         {
-            System.out.println("Welcome, please enter the number corresponding to what you want to do:");
+            System.out.println("\n Welcome, please enter the number corresponding to what you want to do:");
             System.out.println("1: Add a student");
             System.out.println("2: Show all students");
             System.out.println("3: Search for a student:");
