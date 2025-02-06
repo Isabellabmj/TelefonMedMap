@@ -33,7 +33,7 @@ public class TelefonListen
     {
         if(students.isEmpty())
         {
-            System.out.println("No students found");
+            System.out.println("No students found + \n");
         }
 
         System.out.println("Students in the class");
@@ -86,7 +86,24 @@ public class TelefonListen
         }
         else
         {
-            System.out.println("Student not found");
+            System.out.println("Student not found + \n");
+        }
+    }
+
+    public void deleteStudent()
+    {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter the name of the student that you want to delete:");
+        String name = input.nextLine();
+
+        if(students.containsKey(name))
+        {
+            students.remove(name);
+            System.out.println("Student has been deleted");
+        }
+        else
+        {
+            System.out.println("Student not found + \n");
         }
     }
 
