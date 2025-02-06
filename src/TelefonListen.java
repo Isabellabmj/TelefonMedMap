@@ -1,10 +1,8 @@
 import java.util.Scanner;
-import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Writer;
 
-import java.io.IOException;
+
 import java.util.HashMap;
 
 public class TelefonListen
@@ -44,8 +42,8 @@ public class TelefonListen
         for(String name : students.keySet())
         {
             System.out.println("Student name: " + name + "\n"
-                    + "Phone number: " + students.get(name) //vi kalder på name fordi den er key og har tilhørende value, som er tlf nummer
-                    + "\n");
+                    + "Phone number: " + students.get(name) //Note: vi kalder på students.get(name) fordi name er key og har tilhørende value, som er tlf nummer
+                    + "\n"); //spørgsmål, hvorfor kalder vi ikke på telefon?
         }
     }
 
@@ -162,5 +160,6 @@ public class TelefonListen
             e.printStackTrace();
         }
     }
+
 
 }
