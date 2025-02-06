@@ -48,6 +48,7 @@ public class Main
 
                 case 6:
                     telefonlisten.showNamesOnList();
+                    break;
 
                 case 7:
                     telefonlisten.saveToFile();

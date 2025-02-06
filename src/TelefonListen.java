@@ -127,7 +127,6 @@ public class TelefonListen
 
     public void showNamesOnList()
     {
-        Scanner input = new Scanner(System.in);
 
         if(students.isEmpty())
         {
@@ -137,7 +136,7 @@ public class TelefonListen
         System.out.println("List of students, name only:");
         for(String name : students.keySet())
         {
-            System.out.println("Student name: " + name + "\n");
+            System.out.println(name);
         }
     }
 

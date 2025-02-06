@@ -1,7 +1,2 @@
-Student name: Simone, phone number: 18273649
-Student name: Claudia, phone number: 28817726
-Student name: Martin, phone number: 29384756
-Student name: Lærke, phone number: 28334019
-Student name: Maria, phone number: 28763049
-Student name: Lasse, phone number: 29384293
-Student name: Niklas, phone number: 28172639
+Student name: Isabella, phone number: 29381729
+Student name: Maria, phone number: 283940293
